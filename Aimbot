@@ -1,0 +1,4 @@
+import pyautogui
+
+sc = pyautogui.screenshot(region=(0,0,1919,1079))
+sc.save
